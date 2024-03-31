@@ -14,7 +14,6 @@ excluded-patches = "'Wide searchbar' 'Tablet mini player' 'Hide captions button'
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/revanced-integrations"
-rv-brand = "YT-Advanced ReVanced"
 included-patches = "'Add splash animation' 'Change player flyout panel toggles' 'Disable landscape mode' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button' 'Spoof player parameters'"
 excluded-patches = "'Custom branding heading' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Disable rolling number animations' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Enable wide search bar' 'Force fullscreen' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide collapse button' 'Hide handle' 'Hide navigation label' 'Hide seekbar' 'Hide time stamp' 'Translations'"
 
@@ -22,7 +21,6 @@ excluded-patches = "'Custom branding heading' 'Custom branding name YouTube' 'Cu
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "anddea/revanced-patches/dev"
 integrations-source = "anddea/revanced-integrations"
-rv-brand = "anddea ReVanced"
 included-patches = "'Change player flyout panel toggles' 'Custom branding icon YouTube' 'Hide animated button background' 'Hide double tap to like animations' 'Hide player buttons background' 'Hide voice search button' 'MaterialYou'"
 excluded-patches = "'Custom double tap length' 'Custom package name' 'Disable rolling number animations' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Enable wide search bar' 'Force fullscreen' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide collapse button' 'Hide handle' 'Hide navigation label' 'Hide seekbar' 'Hide time stamp' 'Translations'"
 
@@ -35,7 +33,6 @@ exclusive-patches = true
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
-rv-brand = "crimera ReVanced"
 included-patches = "'Hide For You' 'Hide Banner' 'Hide Live Threads' 'Bring back twitter' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB Menu Buttons'"
 excluded-patches = "'Dynamic color' 'Remove view count'"
 
