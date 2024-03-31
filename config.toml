@@ -18,6 +18,14 @@ rv-brand = "YT-Advanced ReVanced"
 included-patches = "'Add splash animation' 'Change player flyout panel toggles' 'Disable landscape mode' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button' 'Spoof player parameters'"
 excluded-patches = "'Custom branding heading' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Disable rolling number animations' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Enable wide search bar' 'Force fullscreen' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide collapse button' 'Hide handle' 'Hide navigation label' 'Hide seekbar' 'Hide time stamp' 'Translations'"
 
+[Youtube ReVanced Extended - Anddea]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "anddea/revanced-patches/dev"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "anddea ReVanced"
+included-patches = "'Change player flyout panel toggles' 'Custom branding icon YouTube' 'Hide animated button background' 'Hide double tap to like animations' 'Hide player buttons background' 'Hide voice search button' 'MaterialYou'"
+excluded-patches = "'Custom double tap length' 'Custom package name' 'Disable rolling number animations' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Enable wide search bar' 'Force fullscreen' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide collapse button' 'Hide handle' 'Hide navigation label' 'Hide seekbar' 'Hide time stamp' 'Translations'"
+
 [Reddit ReVanced]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 included-patches = "'Hide ads' 'Sanitize sharing links' 'Unlock premium Reddit icons' 'Disable screenshot popup' 'Change package name'"
