@@ -46,6 +46,6 @@ included-patches = "'Disable mandatory login' 'Unlock premium' 'Change package n
 exclusive-patches = true
 
 [VSCO]
-apkmirror-dlurl = "https://apkmirror.com/apk/vsco/vsco-cam/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/vsco/vsco-cam/"
 included-patches = "'Unlock pro' 'Change package name'"
 exclusive-patches = true
