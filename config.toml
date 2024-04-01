@@ -29,7 +29,7 @@ excluded-patches = "'Custom double tap length' 'Custom package name' 'Disable ro
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-included-patches = "'Hide ads' 'Sanitize sharing links' 'Unlock premium Reddit icons' 'Disable screenshot popup' 'Change package name'"
+included-patches = "'Hide ads' 'Sanitize sharing links' 'Unlock premium Reddit icons' 'Disable screenshot popup'"
 exclusive-patches = true
 
 [Twitter]
@@ -42,10 +42,10 @@ excluded-patches = "'Dynamic color' 'Remove view count'"
 [Lightroom]
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/adobe/lightroom/"
-included-patches = "'Disable mandatory login' 'Unlock premium' 'Change package name'"
+included-patches = "'Disable mandatory login' 'Unlock premium'"
 exclusive-patches = true
 
 [VSCO]
 uptodown-dlurl = "https://vsco-cam.en.uptodown.com/android"
-included-patches = "'Unlock pro' 'Change package name'"
+included-patches = "'Unlock pro'"
 exclusive-patches = true
