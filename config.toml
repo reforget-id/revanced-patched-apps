@@ -46,6 +46,6 @@ included-patches = "'Disable mandatory login' 'Unlock premium' 'Change package n
 exclusive-patches = true
 
 [VSCO]
-uptodown-dlurl =  = "https://vsco-cam.en.uptodown.com/android"
+uptodown-dlurl = "https://vsco-cam.en.uptodown.com/android"
 included-patches = "'Unlock pro' 'Change package name'"
 exclusive-patches = true
