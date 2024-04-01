@@ -5,44 +5,46 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[Youtube ReVanced]
+[Youtube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Remove player controls background'"
 excluded-patches = "'Wide searchbar' 'Tablet mini player' 'Hide captions button' 'Hide seekbar' 'Disable rolling number animations' 'Hide filter bar' 'Hide timestamp'"
 
-[Youtube ReVanced Extended - ReX]
+[Youtube ReVanced]
+rv-brand = "Extended ReX"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 included-patches = "'Add splash animation' 'Change player flyout panel toggles' 'Disable landscape mode' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button' 'Spoof player parameters'"
 excluded-patches = "'Custom branding heading' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Disable rolling number animations' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Enable wide search bar' 'Force fullscreen' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide collapse button' 'Hide handle' 'Hide navigation label' 'Hide seekbar' 'Hide time stamp' 'Translations'"
 
-[Youtube ReVanced Extended - Anddea]
+[Youtube ReVanced Extended]
 enabled = false
+rv-brand = "Anddea"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "anddea/revanced-patches/dev"
 integrations-source = "anddea/revanced-integrations/dev"
 included-patches = "'Change player flyout panel toggles' 'Custom branding icon YouTube' 'Hide animated button background' 'Hide double tap to like animations' 'Hide player buttons background' 'Hide voice search button' 'MaterialYou'"
 excluded-patches = "'Custom double tap length' 'Custom package name' 'Disable rolling number animations' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Enable wide search bar' 'Force fullscreen' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide collapse button' 'Hide handle' 'Hide navigation label' 'Hide seekbar' 'Hide time stamp' 'Translations'"
 
-[Reddit ReVanced]
+[Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 included-patches = "'Hide ads' 'Sanitize sharing links' 'Unlock premium Reddit icons' 'Disable screenshot popup' 'Change package name'"
 exclusive-patches = true
 
-[Twitter ReVanced]
+[Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
 included-patches = "'Hide For You' 'Hide Banner' 'Hide Live Threads' 'Bring back twitter' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB Menu Buttons'"
 excluded-patches = "'Dynamic color' 'Remove view count'"
 
-[Lightroom ReVanced]
+[Lightroom]
 apkmirror-dlurl = "https://apkmirror.com/apk/adobe/lightroom/"
 included-patches = "'Disable mandatory login' 'Unlock premium' 'Change package name'"
 exclusive-patches = true
 
-[VSCO ReVanced]
+[VSCO]
 apkmirror-dlurl = "https://apkmirror.com/apk/vsco/vsco-cam/"
 included-patches = "'Unlock pro' 'Change package name'"
 exclusive-patches = true
