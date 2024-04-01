@@ -1,7 +1,8 @@
 Youtube: 19.09.37  
-Youtube-ReVanced: 19.07.40  
 Reddit: 2024.13.0  
+Youtube-ReVanced: 19.07.40  
 Twitter: 10.34.0-release.0  
+VSCO: 345  
 Lightroom: 9.2.2  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
