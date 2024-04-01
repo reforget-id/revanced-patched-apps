@@ -1,7 +1,7 @@
-YoutubeReVanced: 19.09.37  
-RedditReVanced: 2024.13.0  
-YoutubeReVancedExtended-ReX: 19.07.40  
-TwitterReVanced: 10.34.0-release.0  
+Youtube: 19.09.37  
+YoutubeReVanced: 19.07.40  
+Twitter: 10.34.0-release.0  
+Reddit: 2024.13.0  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
