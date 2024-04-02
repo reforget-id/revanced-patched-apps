@@ -16,5 +16,14 @@
         "value": "Youtube ReVanced Extended"
       }
     ]
+  },
+  {
+    "patchName": "Shorts overlay buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "outline"
+      }
+    ]
   }
 ]
