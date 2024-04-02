@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "patchName": "Custom branding name YouTube",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "Youtube ReVanced Extended"
+      }
+    ]
+  }
+]
