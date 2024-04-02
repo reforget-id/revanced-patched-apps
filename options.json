@@ -25,5 +25,14 @@
         "value": "outline"
       }
     ]
+  },
+  {
+    "patchName": "Custom branding name Reddit",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "Reddit ReVanced"
+      }
+    ]
   }
 ]
