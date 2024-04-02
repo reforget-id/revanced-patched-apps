@@ -30,9 +30,11 @@ included-patches = "'Add splash animation' 'Change player flyout panel toggles' 
 excluded-patches = "'Custom branding heading' 'Custom double tap length' 'Custom package name' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Force fullscreen' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide collapse button' 'Hide handle' 'Hide navigation label' 'Hide seekbar' 'Hide time stamp'"
 
 [Reddit]
+rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-included-patches = "'Hide ads' 'Sanitize sharing links' 'Unlock premium Reddit icons' 'Disable screenshot popup'"
-exclusive-patches = true
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+included-patches = "'Change package name' 'Custom branding name Reddit'"
 
 [Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
