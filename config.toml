@@ -44,7 +44,6 @@ included-patches = "'Hide For You' 'Hide Banner' 'Hide Live Threads' 'Custom sha
 excluded-patches = "'Dynamic color' 'Remove view count' 'Show sensitive media'"
 
 [Lightroom]
-arch = "arm64-v8a"
 apkmirror-dlurl = "https://adobe-lightroom-mobile.en.uptodown.com/android"
 included-patches = "'Disable mandatory login' 'Unlock premium'"
 exclusive-patches = true
