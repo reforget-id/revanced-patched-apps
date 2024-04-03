@@ -1,4 +1,3 @@
-Youtube-ReVanced: 19.09.37  
 Youtube-ReVanced-Extended: 19.11.38  
 Reddit: 2024.14.0  
 Youtube-ReX: 19.07.40  
