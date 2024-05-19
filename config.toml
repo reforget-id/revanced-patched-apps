@@ -6,12 +6,14 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [Youtube-ReVanced]
+enabled = false
 app-name = "Youtube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Custom branding' 'Remove player controls background'"
 excluded-patches = "'Wide searchbar' 'Tablet mini player' 'Hide captions button' 'Hide seekbar' 'Hide filter bar' 'Hide timestamp'"
 
 [Youtube-ReVanced-Extended]
+enabled = false
 app-name = "Youtube"
 rv-brand = "ReVanced Extended"
 version = "19.14.43"
@@ -22,6 +24,7 @@ included-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube
 excluded-patches = "'Custom double tap length' 'Custom package name' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Force fullscreen' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide collapse button' 'Hide handle' 'Hide navigation label' 'Hide seekbar' 'Hide time stamp' 'Tuck away preferences'"
 
 [Reddit]
+enabled = false
 rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 patches-source = "anddea/revanced-patches"
@@ -32,8 +35,8 @@ included-patches = "'Change package name' 'Custom branding name Reddit'"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
-included-patches = "'Hide For You' 'Hide Banner' 'Hide Live Threads' 'Custom sharing domain' 'Bring back twitter' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB Menu Buttons'"
-excluded-patches = "'Dynamic color' 'Remove view count' 'Show sensitive media'"
+included-patches = "'Bring back twitter' 'Customize profile tabs' 'Customize Navigation Bar items' 'Enable app icon settings' 'Force enable translate' 'Hide promote button' 'Hide Community Notes' 'Hide Banner' 'Hide Live Threads' 'Add ability to copy media link' 'Disable chirp font'"
+excluded-patches = "'Dynamic color' 'Show sensitive media'"
 
 [Lightroom]
 enabled = false
