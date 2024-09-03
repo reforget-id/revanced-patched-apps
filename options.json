@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "patchName": "Custom branding icon YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "mmt"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name YouTube",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "Youtube ReVanced Extended"
+      }
+    ]
+  },
+  {
+    "patchName": "Shorts overlay buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "outline"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name Reddit",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "Reddit ReVanced Extended"
+      }
+    ]
+  }
+]
