@@ -11,17 +11,19 @@ enabled = true
 app-name = "Youtube"
 rv-brand = "ReVanced Extended"
 version = "19.44.39"
+arch = "universal"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Hide Shorts dimming'"
 excluded-patches = "'Ambient mode control' 'Change player flyout menu toggles' 'Enable debug logging' 'Enable gradient loading screen' 'Hook YouTube Music actions' 'Translations for YouTube'"
-patcher-args = "-OappIcon=mmt -OappName=Youtube ReVanced Extended -OiconType=outline -OdoubleTapLengthArrays=5,10,20,30,60 -OBackgroundColor=@android:color/transparent -OoutlineIcon=false -OiconType=bold -OchangeTopButtons=true -ObottomMargin=5.0dip -OrvxSettingsLabel=ReVanced Extended -OinsertPosition=@string/pair_with_tv_key "
+patcher-args = "-OappIcon=vanced_black -OappName=Youtube ReVanced Extended -OiconType=outline -OdoubleTapLengthArrays=5,10,20,30,60 -OBackgroundColor=@android:color/transparent -OoutlineIcon=false -OiconType=bold -OchangeTopButtons=true -ObottomMargin=5.0dip -OrvxSettingsLabel=ReVanced Extended -OinsertPosition=@string/pair_with_tv_key "
 
 [Reddit]
 enabled = true
 rv-brand = "ReVanced Extended"
 version = "2025.05.1"
+arch = "universal"
 dpi = "120-640dpi"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 patches-source = "anddea/revanced-patches"
@@ -32,6 +34,7 @@ patcher-args = "-OpackageNameReddit=com.reddit.frontpage.rvx -OappName=Reddit Re
 enabled = true
 rv-brand = "Piko"
 version = "10.84.0-release.0"
+arch = "universal"
 dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 cli-source = "ReVanced/revanced-cli"
