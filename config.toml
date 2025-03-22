@@ -21,7 +21,6 @@ patcher-args = "-OappIcon=vanced_black -OappName='Youtube ReVanced Extended' -Oi
 [Reddit]
 enabled = true
 rv-brand = "ReVanced Extended"
-version = "2025.05.1"
 dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 patches-source = "anddea/revanced-patches"
@@ -29,7 +28,7 @@ included-patches = "'Change package name' 'Custom branding name for Reddit'"
 patcher-args = "-OpackageNameReddit=com.reddit.frontpage.rvx -OappName=Reddit ReVanced Extended -OrvxSettingsLabel=ReVanced Extended "
 
 [Twitter]
-enabled = true
+enabled = false
 rv-brand = "Piko"
 version = "10.84.0-release.0"
 dpi = "120-640dpi"
