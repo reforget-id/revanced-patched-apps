@@ -12,7 +12,7 @@ app-name = "Youtube"
 rv-brand = "ReVanced Extended"
 version = "19.44.39"
 arch = "universal"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Hide Shorts dimming'"
@@ -20,12 +20,12 @@ excluded-patches = "'Ambient mode control' 'Change player flyout menu toggles' '
 patcher-args = "-OappIcon=vanced_black -OappName=Youtube ReVanced Extended -OiconType=outline -OdoubleTapLengthArrays=5,10,20,30,60 -OBackgroundColor=@android:color/transparent -OoutlineIcon=false -OiconType=bold -OchangeTopButtons=true -ObottomMargin=5.0dip -OrvxSettingsLabel=ReVanced Extended -OinsertPosition=@string/pair_with_tv_key "
 
 [Reddit]
-enabled = true
+enabled = false
 rv-brand = "ReVanced Extended"
 version = "2025.05.1"
 arch = "universal"
 dpi = "120-640dpi"
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 patches-source = "anddea/revanced-patches"
 included-patches = "'Change package name' 'Custom branding name for Reddit'"
 patcher-args = "-OpackageNameReddit=com.reddit.frontpage.rvx -OappName=Reddit ReVanced Extended -OrvxSettingsLabel=ReVanced Extended "
