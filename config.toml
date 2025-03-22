@@ -26,7 +26,7 @@ apkmirror-dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 patches-source = "anddea/revanced-patches"
 included-patches = "'Change package name' 'Custom branding name for Reddit'"
-patcher-args = "-OpackageNameReddit=com.reddit.frontpage.rvx -OappName=Reddit ReVanced Extended -OrvxSettingsLabel=ReVanced Extended "
+patcher-args = "-OpackageNameReddit=com.reddit.frontpage.rvx -OappName='Reddit ReVanced Extended' -OrvxSettingsLabel='ReVanced Extended' "
 
 [Twitter]
 enabled = false
