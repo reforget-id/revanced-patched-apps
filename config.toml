@@ -22,6 +22,7 @@ patcher-args = "-OappIcon=mmt -OappName=Youtube ReVanced Extended -OiconType=out
 enabled = true
 rv-brand = "ReVanced Extended"
 version = "2025.05.1"
+dpi = "120-640dpi"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 patches-source = "anddea/revanced-patches"
 included-patches = "'Change package name' 'Custom branding name for Reddit'"
