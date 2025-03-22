@@ -7,7 +7,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Youtube-ReVanced-Extended]
-enabled = true
+enabled = false
 app-name = "Youtube"
 rv-brand = "ReVanced Extended"
 version = "19.44.39"
@@ -22,16 +22,16 @@ patcher-args = "-OappIcon=vanced_black -OappName='Youtube ReVanced Extended' -Oi
 enabled = true
 rv-brand = "ReVanced Extended"
 version = "2025.05.1"
+dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 patches-source = "anddea/revanced-patches"
 included-patches = "'Change package name' 'Custom branding name for Reddit'"
 patcher-args = "-OpackageNameReddit=com.reddit.frontpage.rvx -OappName=Reddit ReVanced Extended -OrvxSettingsLabel=ReVanced Extended "
 
 [Twitter]
-enabled = false
+enabled = true
 rv-brand = "Piko"
 version = "10.84.0-release.0"
-arch = "universal"
 dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 cli-source = "ReVanced/revanced-cli"
