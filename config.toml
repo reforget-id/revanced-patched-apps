@@ -7,16 +7,32 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Youtube-ReVanced-Extended]
-enabled = false
+enabled = true
 app-name = "Youtube"
 rv-brand = "ReVanced Extended"
 version = "19.44.39"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
-included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Hide Shorts dimming'"
-excluded-patches = "'Ambient mode control' 'Change player flyout menu toggles' 'Enable debug logging' 'Enable gradient loading screen' 'Hook YouTube Music actions' 'Translations for YouTube'"
-patcher-args = "-OappIcon=vanced_black -OappName='Youtube ReVanced Extended' -OiconType=outline -OdoubleTapLengthArrays=5,10,20,30,60 -OBackgroundColor=@android:color/transparent -OoutlineIcon=false -OiconType=bold -OchangeTopButtons=true -ObottomMargin=5.0dip -OrvxSettingsLabel='ReVanced Extended' -OinsertPosition=@string/pair_with_tv_key "
+included-patches = "'Hide Shorts dimming'"
+excluded-patches = """
+    'Ambient mode control' \
+    'Change player flyout menu toggles' \
+    'Enable debug logging' \
+    'Enable gradient loading screen' \
+    'Hook YouTube Music actions' \
+    'Translations for YouTube' \
+"""
+patcher-args = """
+    -e 'Custom branding icon for YouTube' -OappIcon=vanced_black \
+    -e 'Custom branding name for YouTube' -OappName='Youtube ReVanced Extended' \
+    -e 'Custom Shorts action buttons' -OiconType=outline \
+    -e 'Force player buttons background' -OBackgroundColor=@android:color/transparent \
+    -e 'SponsorBlock' -OoutlineIcon=false \
+    -e 'Overlay buttons' -OiconType=bold -OchangeTopButtons=true -ObottomMargin=5.0dip \
+    -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black \
+    -e 'Settings for YouTube' -OrvxSettingsLabel='ReVanced Extended' -OinsertPosition=@string/pair_with_tv_key \
+"""
 
 [Reddit]
 enabled = true
@@ -25,8 +41,13 @@ version = "2025.05.1"
 apkmirror-dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
 included-patches = "'Change package name' 'Custom branding name for Reddit'"
-patcher-args = "-OpackageNameReddit=com.reddit.frontpage.rvx -OappName='Reddit ReVanced Extended' -OrvxSettingsLabel='ReVanced Extended' "
+patcher-args = """
+    -e 'Change package name' -OpackageNameReddit=com.reddit.frontpage.rvx \
+    -e 'Custom branding name for Reddit' -OappName='Reddit ReVanced Extended' \
+    -e 'Settings for Reddit' -OrvxSettingsLabel='ReVanced Extended' \
+"""
 
 [Twitter]
 enabled = false
