@@ -54,6 +54,7 @@ enabled = true
 rv-brand = "ReVanced"
 version = "9.0.30.631"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+included-patches = "'Change package name'"
 excluded-patches = "'Custom theme'"
 
 [Twitter]
