@@ -7,7 +7,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Youtube-ReVanced-Extended]
-enabled = true
+enabled = false
 app-name = "Youtube"
 rv-brand = "ReVanced Extended"
 version = "19.44.39"
@@ -35,7 +35,7 @@ patcher-args = """
 """
 
 [Reddit]
-enabled = true
+enabled = false
 rv-brand = "ReVanced Extended"
 version = "2025.05.1"
 apkmirror-dpi = "120-640dpi"
@@ -48,6 +48,13 @@ patcher-args = """
     -e 'Custom branding name for Reddit' -OappName='Reddit ReVanced Extended' \
     -e 'Settings for Reddit' -OrvxSettingsLabel='ReVanced Extended' \
 """
+
+[Spotify]
+enabled = true
+rv-brand = "ReVanced"
+version = "9.0.30.631"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+excluded-patches = "'Custom theme'"
 
 [Twitter]
 enabled = false
