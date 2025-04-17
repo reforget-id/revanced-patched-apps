@@ -52,9 +52,9 @@ patcher-args = """
 [Spotify]
 enabled = true
 rv-brand = "ReVanced"
-version = "9.0.32.617"
+version = "9.0.36.683"
 patches-source = "anddea/revanced-patches"
-patches-version = "v3.7.0-dev.6"
+patches-version = "dev"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Twitter]
