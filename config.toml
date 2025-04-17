@@ -53,8 +53,9 @@ patcher-args = """
 enabled = true
 rv-brand = "ReVanced"
 version = "9.0.30.631"
+patches-source = "anddea/revanced-patches"
+patches-version = "v3.7.0-dev.6"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-excluded-patches = "'Custom theme'"
 
 [Twitter]
 enabled = false
