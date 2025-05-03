@@ -7,10 +7,10 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Youtube-ReVanced-Extended]
-enabled = false
+enabled = true
 app-name = "Youtube"
 rv-brand = "ReVanced Extended"
-version = "19.44.39"
+version = "19.47.53"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -50,11 +50,11 @@ patcher-args = """
 """
 
 [Spotify]
-enabled = true
+enabled = false
 rv-brand = "ReVanced"
 version = "9.0.36.683"
 patches-source = "anddea/revanced-patches"
-patches-version = "dev"
+patches-version = "latest"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 excluded-patches = "'Lyrics search'"
 
