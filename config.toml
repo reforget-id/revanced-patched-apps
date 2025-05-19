@@ -52,7 +52,7 @@ patcher-args = """
 [Spotify]
 enabled = true
 rv-brand = "ReVanced"
-version = "9.0.44.470"
+version = "9.0.44.471"
 arch = "arm64-v8a"
 patches-source = "ReVanced/revanced-patches"
 patches-version = "latest"
