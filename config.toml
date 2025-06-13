@@ -6,76 +6,70 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+[Youtube-ReVanced-Extended]
+enabled = false
+app-name = "Youtube"
+rv-brand = "ReVanced Extended"
+version = "19.47.53"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+included-patches = "'Hide Shorts dimming'"
+excluded-patches = """
+    'Ambient mode control' \
+    'Change player flyout menu toggles' \
+    'Enable debug logging' \
+    'Enable gradient loading screen' \
+    'Hook YouTube Music actions' \
+    'Translations for YouTube' \
+"""
+patcher-args = """
+    -e 'Custom branding icon for YouTube' -OappIcon=vanced_black \
+    -e 'Custom branding name for YouTube' -OappName='Youtube ReVanced Extended' \
+    -e 'Custom Shorts action buttons' -OiconType=outline \
+    -e 'Force player buttons background' -OBackgroundColor=@android:color/transparent \
+    -e 'SponsorBlock' -OoutlineIcon=false \
+    -e 'Overlay buttons' -OiconType=bold -OchangeTopButtons=true -ObottomMargin=5.0dip \
+    -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black \
+    -e 'Settings for YouTube' -OrvxSettingsLabel='ReVanced Extended' -OinsertPosition=@string/pair_with_tv_key \
+"""
 
-[Music]
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-
-[GooglePhotos]
-build-mode = "both"
-arch = "both"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+[Reddit]
+enabled = false
+rv-brand = "ReVanced Extended"
+version = "2025.05.1"
+apkmirror-dpi = "120-640dpi"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+included-patches = "'Change package name' 'Custom branding name for Reddit'"
+patcher-args = """
+    -e 'Change package name' -OpackageNameReddit=com.reddit.frontpage.rvx \
+    -e 'Custom branding name for Reddit' -OappName='Reddit ReVanced Extended' \
+    -e 'Settings for Reddit' -OrvxSettingsLabel='ReVanced Extended' \
+"""
 
 [Spotify]
+enabled = true
+rv-brand = "ReVanced"
+version = "9.0.52.505"
+# arch = "arm64-v8a"
+patches-source = "ReVanced/revanced-patches"
+patches-version = "latest"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
-
-# https://github.com/j-hc/revanced-magisk-module/issues/554
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
-[Twitch]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+included-patches = "'Remove screen capture restriction'"
+excluded-patches = "'Lyrics search'"
 
 [Twitter]
 enabled = false
+rv-brand = "Piko"
+version = "10.84.0-release.0"
+apkmirror-dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-build-mode = "apk"
-dpi = "120-640dpi"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-
-[TikTok]
-enabled = false
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
-
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-arch = "arm64-v8a"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+cli-source = "ReVanced/revanced-cli"
+cli-version = "v4.6.0"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
+included-patches = "'Bring back twitter'"
+excluded-patches = "'Dynamic color' 'Remove top people in search' 'Hide FAB' 'Remove view count' 'Enable PiP mode automatically' 'Hide Banner'"
