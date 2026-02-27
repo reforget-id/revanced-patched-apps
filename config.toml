@@ -15,7 +15,6 @@ patches-source = "MorpheApp/morphe-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "Morphe"
 patches-version = "dev"
-arch = "arm64-v8a"
 included-patches = "'Hide Shorts dimming'"
 excluded-patches = """
     'Ambient mode control' \
