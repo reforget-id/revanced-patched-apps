@@ -30,6 +30,6 @@ patcher-args = """\
     -e 'Custom Shorts action buttons' -OiconType=outline \
     -e 'Force player buttons background' -OBackgroundColor=@android:color/transparent \
     -e 'Overlay buttons' -OiconType=bold -OchangeTopButtons=true -ObottomMargin=5.0dip \
-    -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black \
     -e 'Settings for YouTube' -OinsertPosition=@string/pair_with_tv_key -OrvxSettingsLabel='Morphe Settings' \
+    -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black \
 """
