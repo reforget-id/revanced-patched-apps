@@ -22,9 +22,8 @@ excluded-patches = """
     'Enable gradient loading screen' \
     'Miniplayer'
     'Translations for YouTube' \
-    'Voice Over Translation' \
+    'Voice Over Translation' 
 """
-
 patcher-args = """
     -e 'Custom branding name for YouTube' -OappName='Youtube Morphe' \
     -e 'Custom branding icon for YouTube' -OappIcon=vanced_black \
@@ -32,5 +31,5 @@ patcher-args = """
     -e 'Force player buttons background' -OBackgroundColor=@android:color/transparent \
     -e 'Overlay buttons' -OiconType=bold -OchangeTopButtons=true -ObottomMargin=5.0dip \
     -e 'Theme' -OdarkThemeBackgroundColor=@android:color/black \
-    -e 'Settings for YouTube' -OinsertPosition=@string/pair_with_tv_key -OrvxSettingsLabel='ReVanced Extended' \
+    -e 'Settings for YouTube' -OinsertPosition=@string/pair_with_tv_key -OrvxSettingsLabel='Morphe Settings' 
 """
